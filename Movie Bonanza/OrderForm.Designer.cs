@@ -69,8 +69,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(517, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(345, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -80,19 +79,19 @@
             this.streamToolStripMenuItem,
             this.cancelToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // streamToolStripMenuItem
             // 
             this.streamToolStripMenuItem.Name = "streamToolStripMenuItem";
-            this.streamToolStripMenuItem.Size = new System.Drawing.Size(152, 30);
+            this.streamToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.streamToolStripMenuItem.Text = "Stream";
             // 
             // cancelToolStripMenuItem
             // 
             this.cancelToolStripMenuItem.Name = "cancelToolStripMenuItem";
-            this.cancelToolStripMenuItem.Size = new System.Drawing.Size(152, 30);
+            this.cancelToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.cancelToolStripMenuItem.Text = "Cancel";
             this.cancelToolStripMenuItem.Click += new System.EventHandler(this.CancelButton_Click);
             // 
@@ -101,22 +100,21 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(147, 30);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(352, 510);
-            this.CancelButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CancelButton.Location = new System.Drawing.Point(235, 331);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(76, 35);
+            this.CancelButton.Size = new System.Drawing.Size(51, 23);
             this.CancelButton.TabIndex = 1;
             this.CancelButton.Text = "Cancel";
             this.CancelButton.UseVisualStyleBackColor = true;
@@ -124,10 +122,9 @@
             // 
             // StreamButton
             // 
-            this.StreamButton.Location = new System.Drawing.Point(352, 322);
-            this.StreamButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.StreamButton.Location = new System.Drawing.Point(235, 224);
             this.StreamButton.Name = "StreamButton";
-            this.StreamButton.Size = new System.Drawing.Size(76, 35);
+            this.StreamButton.Size = new System.Drawing.Size(51, 23);
             this.StreamButton.TabIndex = 2;
             this.StreamButton.Text = "Stream";
             this.StreamButton.UseVisualStyleBackColor = true;
@@ -135,10 +132,9 @@
             // 
             // BackButton
             // 
-            this.BackButton.Location = new System.Drawing.Point(268, 510);
-            this.BackButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BackButton.Location = new System.Drawing.Point(179, 331);
             this.BackButton.Name = "BackButton";
-            this.BackButton.Size = new System.Drawing.Size(76, 35);
+            this.BackButton.Size = new System.Drawing.Size(51, 23);
             this.BackButton.TabIndex = 3;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
@@ -151,59 +147,52 @@
             this.MovieSelectedGroupBox.Controls.Add(this.TitleTextBox);
             this.MovieSelectedGroupBox.Controls.Add(this.CategoryLabel2);
             this.MovieSelectedGroupBox.Controls.Add(this.TitleLabel2);
-            this.MovieSelectedGroupBox.Location = new System.Drawing.Point(20, 57);
-            this.MovieSelectedGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MovieSelectedGroupBox.Location = new System.Drawing.Point(13, 37);
             this.MovieSelectedGroupBox.Name = "MovieSelectedGroupBox";
-            this.MovieSelectedGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.MovieSelectedGroupBox.Size = new System.Drawing.Size(232, 488);
+            this.MovieSelectedGroupBox.Size = new System.Drawing.Size(155, 317);
             this.MovieSelectedGroupBox.TabIndex = 4;
             this.MovieSelectedGroupBox.TabStop = false;
             this.MovieSelectedGroupBox.Text = "Movie Selected";
             // 
             // MoviePictureBox
             // 
-            this.MoviePictureBox.Location = new System.Drawing.Point(15, 167);
-            this.MoviePictureBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MoviePictureBox.Location = new System.Drawing.Point(10, 109);
             this.MoviePictureBox.Name = "MoviePictureBox";
-            this.MoviePictureBox.Size = new System.Drawing.Size(192, 305);
+            this.MoviePictureBox.Size = new System.Drawing.Size(128, 198);
             this.MoviePictureBox.TabIndex = 4;
             this.MoviePictureBox.TabStop = false;
             // 
             // CategoryTextBox
             // 
-            this.CategoryTextBox.Location = new System.Drawing.Point(14, 122);
-            this.CategoryTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CategoryTextBox.Location = new System.Drawing.Point(9, 79);
             this.CategoryTextBox.Name = "CategoryTextBox";
             this.CategoryTextBox.ReadOnly = true;
-            this.CategoryTextBox.Size = new System.Drawing.Size(192, 26);
+            this.CategoryTextBox.Size = new System.Drawing.Size(129, 20);
             this.CategoryTextBox.TabIndex = 3;
             // 
             // TitleTextBox
             // 
-            this.TitleTextBox.Location = new System.Drawing.Point(15, 57);
-            this.TitleTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TitleTextBox.Location = new System.Drawing.Point(10, 37);
             this.TitleTextBox.Name = "TitleTextBox";
             this.TitleTextBox.ReadOnly = true;
-            this.TitleTextBox.Size = new System.Drawing.Size(192, 26);
+            this.TitleTextBox.Size = new System.Drawing.Size(129, 20);
             this.TitleTextBox.TabIndex = 2;
             // 
             // CategoryLabel2
             // 
             this.CategoryLabel2.AutoSize = true;
-            this.CategoryLabel2.Location = new System.Drawing.Point(10, 97);
-            this.CategoryLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CategoryLabel2.Location = new System.Drawing.Point(7, 63);
             this.CategoryLabel2.Name = "CategoryLabel2";
-            this.CategoryLabel2.Size = new System.Drawing.Size(73, 20);
+            this.CategoryLabel2.Size = new System.Drawing.Size(49, 13);
             this.CategoryLabel2.TabIndex = 1;
             this.CategoryLabel2.Text = "Category";
             // 
             // TitleLabel2
             // 
             this.TitleLabel2.AutoSize = true;
-            this.TitleLabel2.Location = new System.Drawing.Point(10, 31);
-            this.TitleLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TitleLabel2.Location = new System.Drawing.Point(7, 20);
             this.TitleLabel2.Name = "TitleLabel2";
-            this.TitleLabel2.Size = new System.Drawing.Size(38, 20);
+            this.TitleLabel2.Size = new System.Drawing.Size(27, 13);
             this.TitleLabel2.TabIndex = 0;
             this.TitleLabel2.Text = "Title";
             // 
@@ -220,11 +209,9 @@
             this.YourOrderGroupBox.Controls.Add(this.SubTotalTextBox);
             this.YourOrderGroupBox.Controls.Add(this.CostTextBox);
             this.YourOrderGroupBox.Controls.Add(this.CostLabel2);
-            this.YourOrderGroupBox.Location = new System.Drawing.Point(270, 57);
-            this.YourOrderGroupBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.YourOrderGroupBox.Location = new System.Drawing.Point(180, 37);
             this.YourOrderGroupBox.Name = "YourOrderGroupBox";
-            this.YourOrderGroupBox.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.YourOrderGroupBox.Size = new System.Drawing.Size(232, 240);
+            this.YourOrderGroupBox.Size = new System.Drawing.Size(153, 181);
             this.YourOrderGroupBox.TabIndex = 5;
             this.YourOrderGroupBox.TabStop = false;
             this.YourOrderGroupBox.Text = "Your Order";
@@ -232,10 +219,9 @@
             // BuyCheckBox
             // 
             this.BuyCheckBox.AutoSize = true;
-            this.BuyCheckBox.Location = new System.Drawing.Point(12, 197);
-            this.BuyCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BuyCheckBox.Location = new System.Drawing.Point(6, 131);
             this.BuyCheckBox.Name = "BuyCheckBox";
-            this.BuyCheckBox.Size = new System.Drawing.Size(146, 44);
+            this.BuyCheckBox.Size = new System.Drawing.Size(99, 30);
             this.BuyCheckBox.TabIndex = 15;
             this.BuyCheckBox.Text = "Order the DVD \r\n(Additional $10)";
             this.BuyCheckBox.UseVisualStyleBackColor = true;
@@ -244,106 +230,96 @@
             // AdditionalCostLabel
             // 
             this.AdditionalCostLabel.AutoSize = true;
-            this.AdditionalCostLabel.Location = new System.Drawing.Point(8, 63);
-            this.AdditionalCostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AdditionalCostLabel.Location = new System.Drawing.Point(5, 41);
             this.AdditionalCostLabel.Name = "AdditionalCostLabel";
-            this.AdditionalCostLabel.Size = new System.Drawing.Size(116, 20);
+            this.AdditionalCostLabel.Size = new System.Drawing.Size(77, 13);
             this.AdditionalCostLabel.TabIndex = 14;
             this.AdditionalCostLabel.Text = "Additional Cost";
             this.AdditionalCostLabel.Visible = false;
             // 
             // AdditionalCostTextBox
             // 
-            this.AdditionalCostTextBox.Location = new System.Drawing.Point(147, 60);
-            this.AdditionalCostTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.AdditionalCostTextBox.Location = new System.Drawing.Point(98, 39);
             this.AdditionalCostTextBox.Name = "AdditionalCostTextBox";
             this.AdditionalCostTextBox.ReadOnly = true;
-            this.AdditionalCostTextBox.Size = new System.Drawing.Size(61, 26);
+            this.AdditionalCostTextBox.Size = new System.Drawing.Size(42, 20);
             this.AdditionalCostTextBox.TabIndex = 13;
             this.AdditionalCostTextBox.Visible = false;
             // 
             // GrandTotalLabel
             // 
             this.GrandTotalLabel.AutoSize = true;
-            this.GrandTotalLabel.Location = new System.Drawing.Point(8, 167);
-            this.GrandTotalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.GrandTotalLabel.Location = new System.Drawing.Point(5, 109);
             this.GrandTotalLabel.Name = "GrandTotalLabel";
-            this.GrandTotalLabel.Size = new System.Drawing.Size(93, 20);
+            this.GrandTotalLabel.Size = new System.Drawing.Size(63, 13);
             this.GrandTotalLabel.TabIndex = 12;
             this.GrandTotalLabel.Text = "Grand Total";
             // 
             // SalesTaxLabel
             // 
             this.SalesTaxLabel.AutoSize = true;
-            this.SalesTaxLabel.Location = new System.Drawing.Point(8, 128);
-            this.SalesTaxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SalesTaxLabel.Location = new System.Drawing.Point(5, 83);
             this.SalesTaxLabel.Name = "SalesTaxLabel";
-            this.SalesTaxLabel.Size = new System.Drawing.Size(120, 20);
+            this.SalesTaxLabel.Size = new System.Drawing.Size(80, 13);
             this.SalesTaxLabel.TabIndex = 11;
             this.SalesTaxLabel.Text = "Sales Tax(13%)";
             // 
             // SubTotalLabel
             // 
             this.SubTotalLabel.AutoSize = true;
-            this.SubTotalLabel.Location = new System.Drawing.Point(8, 94);
-            this.SubTotalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SubTotalLabel.Location = new System.Drawing.Point(5, 61);
             this.SubTotalLabel.Name = "SubTotalLabel";
-            this.SubTotalLabel.Size = new System.Drawing.Size(73, 20);
+            this.SubTotalLabel.Size = new System.Drawing.Size(50, 13);
             this.SubTotalLabel.TabIndex = 10;
             this.SubTotalLabel.Text = "SubTotal";
             // 
             // GrandTotalTextBox
             // 
-            this.GrandTotalTextBox.Location = new System.Drawing.Point(147, 161);
-            this.GrandTotalTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.GrandTotalTextBox.Location = new System.Drawing.Point(98, 105);
             this.GrandTotalTextBox.Name = "GrandTotalTextBox";
             this.GrandTotalTextBox.ReadOnly = true;
-            this.GrandTotalTextBox.Size = new System.Drawing.Size(61, 26);
+            this.GrandTotalTextBox.Size = new System.Drawing.Size(42, 20);
             this.GrandTotalTextBox.TabIndex = 9;
             // 
             // SalesTaxTextBox
             // 
-            this.SalesTaxTextBox.Location = new System.Drawing.Point(147, 125);
-            this.SalesTaxTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SalesTaxTextBox.Location = new System.Drawing.Point(98, 81);
             this.SalesTaxTextBox.Name = "SalesTaxTextBox";
             this.SalesTaxTextBox.ReadOnly = true;
-            this.SalesTaxTextBox.Size = new System.Drawing.Size(61, 26);
+            this.SalesTaxTextBox.Size = new System.Drawing.Size(42, 20);
             this.SalesTaxTextBox.TabIndex = 8;
             // 
             // SubTotalTextBox
             // 
-            this.SubTotalTextBox.Location = new System.Drawing.Point(147, 91);
-            this.SubTotalTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.SubTotalTextBox.Location = new System.Drawing.Point(98, 59);
             this.SubTotalTextBox.Name = "SubTotalTextBox";
             this.SubTotalTextBox.ReadOnly = true;
-            this.SubTotalTextBox.Size = new System.Drawing.Size(61, 26);
+            this.SubTotalTextBox.Size = new System.Drawing.Size(42, 20);
             this.SubTotalTextBox.TabIndex = 7;
             // 
             // CostTextBox
             // 
-            this.CostTextBox.Location = new System.Drawing.Point(147, 28);
-            this.CostTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CostTextBox.Location = new System.Drawing.Point(98, 18);
             this.CostTextBox.Name = "CostTextBox";
             this.CostTextBox.ReadOnly = true;
-            this.CostTextBox.Size = new System.Drawing.Size(61, 26);
+            this.CostTextBox.Size = new System.Drawing.Size(42, 20);
             this.CostTextBox.TabIndex = 6;
             // 
             // CostLabel2
             // 
             this.CostLabel2.AutoSize = true;
-            this.CostLabel2.Location = new System.Drawing.Point(8, 31);
-            this.CostLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.CostLabel2.Location = new System.Drawing.Point(5, 20);
             this.CostLabel2.Name = "CostLabel2";
-            this.CostLabel2.Size = new System.Drawing.Size(42, 20);
+            this.CostLabel2.Size = new System.Drawing.Size(28, 13);
             this.CostLabel2.TabIndex = 5;
             this.CostLabel2.Text = "Cost";
             // 
             // OrderForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(517, 563);
+            this.ClientSize = new System.Drawing.Size(345, 366);
             this.ControlBox = false;
             this.Controls.Add(this.YourOrderGroupBox);
             this.Controls.Add(this.MovieSelectedGroupBox);
@@ -352,7 +328,6 @@
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "OrderForm";
