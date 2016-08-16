@@ -82,8 +82,7 @@ namespace Movie_Bonanza
                 GrandTotalTextBox.Text = grandTotal.ToString("C"); 
                 SubTotalTextBox.Text = subTotal.ToString("C");
                 SalesTaxTextBox.Text = salesTax.ToString("C");
-                AdditionalCostTextBox.Text = buyMovie.ToString("C"); 
-
+                AdditionalCostTextBox.Text = buyMovie.ToString("C");
             }
             else
             {

@@ -47,3 +47,16 @@ C:\Users\Meer Zaheen\Desktop\MovieBonanza!\Movie Bonanza\Movie Bonanza\obj\Debug
 C:\Users\Meer Zaheen\Desktop\MovieBonanza!\Movie Bonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.SplashScreenForm.resources
 C:\Users\Meer Zaheen\Desktop\MovieBonanza!\Movie Bonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.StreamForm.resources
 C:\Users\Meer Zaheen\Desktop\MovieBonanza!\Movie Bonanza\Movie Bonanza\obj\Debug\Movie Bonanza.csproj.GenerateResource.Cache
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\bin\Debug\MovieBonanza.exe.config
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\MovieBonanza.exe
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\MovieBonanza.pdb
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\bin\Debug\MovieBonanza.exe
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\bin\Debug\MovieBonanza.pdb
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie Bonanza.csprojResolveAssemblyReference.cache
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.AboutBox1.resources
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.OrderForm.resources
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.Properties.Resources.resources
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.SelectionForm.resources
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.SplashScreenForm.resources
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie_Bonanza.StreamForm.resources
+C:\Users\MeerZ\Source\Repos\COMP123-Assignment7-MovieBonanza\Movie Bonanza\obj\Debug\Movie Bonanza.csproj.GenerateResource.Cache

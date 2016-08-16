@@ -36,10 +36,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 43);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(95, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 40);
+            this.label1.Size = new System.Drawing.Size(224, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thank you for choosing Movie Bonanza!\r\nCopyright: Meer Zaheen Nazmul";
             // 
@@ -47,29 +48,33 @@
             // 
             this.GrandTotalText.AutoSize = true;
             this.GrandTotalText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GrandTotalText.Location = new System.Drawing.Point(35, 93);
+            this.GrandTotalText.Location = new System.Drawing.Point(39, 9);
+            this.GrandTotalText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.GrandTotalText.Name = "GrandTotalText";
-            this.GrandTotalText.Size = new System.Drawing.Size(239, 15);
+            this.GrandTotalText.Size = new System.Drawing.Size(355, 22);
             this.GrandTotalText.TabIndex = 1;
             this.GrandTotalText.Text = "Your Credit Card will be charged [X dollars]";
             // 
             // ChosenMovieLabel
             // 
             this.ChosenMovieLabel.AutoSize = true;
-            this.ChosenMovieLabel.Location = new System.Drawing.Point(35, 118);
+            this.ChosenMovieLabel.Location = new System.Drawing.Point(69, 45);
+            this.ChosenMovieLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ChosenMovieLabel.Name = "ChosenMovieLabel";
-            this.ChosenMovieLabel.Size = new System.Drawing.Size(197, 13);
+            this.ChosenMovieLabel.Size = new System.Drawing.Size(291, 20);
             this.ChosenMovieLabel.TabIndex = 2;
             this.ChosenMovieLabel.Text = "[Your Movie] will begin streaming shortly.\r\n";
             // 
             // StreamForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(321, 216);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(421, 132);
             this.Controls.Add(this.ChosenMovieLabel);
             this.Controls.Add(this.GrandTotalText);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "StreamForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Your Movie is about to start!";
